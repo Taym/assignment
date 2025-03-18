@@ -24,6 +24,9 @@ and returns a JSON list of repositories that match the criteria. The response is
 - I implemented one test case for the endpoint, which runs successfully. Additionally, I provided other empty test cases (not implemented)
 to illustrate some scenarios that also need to be considered for this endpoint and the other classes in the project.
 
+- With more time, the implementation can be improved in multiple ways, and I have added some comments in the code and the
+tests that hint at some of these improvements.
+
 - I configured a [GitHub Actions workflow](https://github.com/Taym/assignment/actions) that primarily builds and runs tests to verify that the application runs successfully.
 
 - To run the tests locally you need to clone the project and install Java 21(using SDKMAN for example) then run the following command
